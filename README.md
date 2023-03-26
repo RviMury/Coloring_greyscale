@@ -7,7 +7,7 @@ Model will perform very poorly for portraits, household images, etc
 ```python
 from bing_image_downloader import downloader
 downloader.download('Green Parks', limit=100,  output_dir='dataset',
-dadult_filter_off=True, force_replace=False, timeout=60)
+adult_filter_off=True, force_replace=False, timeout=60)
 ```
 
 ### Note
