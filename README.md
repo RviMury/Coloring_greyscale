@@ -4,11 +4,11 @@ The current model is trined on the images of Green Parks, Sunset and Deserts thu
 Model will perform very poorly for portraits, household images, etc
 
 ### For Downloading traing data images
-'''python
+```python
 from bing_image_downloader import downloader
 downloader.download('Green Parks', limit=100,  output_dir='dataset',
 dadult_filter_off=True, force_replace=False, timeout=60)
-'''
+```
 
 ### Note
 - Note Autoencoders require huge computation power and epochs >300 should be used in real life situation
